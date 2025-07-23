@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CuidaCan - Alimentador Automático</title>
+  <link rel="stylesheet" href="estilo.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a PetLink</h1>
+    <p class="eslogan">Dosis perfectas, cero desperdicios.</p>
+  </header>
+
+  <main>
+    <img src="Recursos/Imagen2.jpeg" alt="Logo CuidaCan" class="logo"/>
+
+    <div class="content">
+      <h2>¿Por qué elegir PetLink?</h2>
+      <p>
+        Con PetLink, tu mascota siempre tendrá la alimentación adecuada, a tiempo y con total comodidad. Nuestro alimentador automático está diseñado pensando en la seguridad, facilidad de uso y conectividad inteligente.
+      </p>
+      <img src="Recursos/Empaque.jpg" alt="Empaque CuidaCan" class="empaque"/>
+    </div>
+    <section class="caracteristicas">
+      <div class="content">
+        <h2>Características Principales</h2>
+        <div class="grid-caracteristicas">
+          <div class="caracteristica">
+            <div class="icono">📱</div>
+            <h3>Control Inteligente</h3>
+            <p>Controla la alimentación desde tu smartphone con nuestra app móvil</p>
+          </div>
+          <div class="caracteristica">
+            <div class="icono">⏰</div>
+            <h3>Programación Flexible</h3>
+            <p>Hasta 6 comidas programables por día con porciones personalizadas</p>
+          </div>
+          <div class="caracteristica">
+            <div class="icono">🔋</div>
+            <h3>Batería de Respaldo</h3>
+            <p>Funciona hasta 30 días sin electricidad para mayor tranquilidad</p>
+          </div>
+          <div class="caracteristica">
+            <div class="icono">🔒</div>
+            <h3>Sistema Seguro</h3>
+            <p>Materiales seguros y sistema anti-atasco para proteger a tu mascota</p>
+          </div>
+          <div class="caracteristica">
+            <div class="icono">📹</div>
+            <h3>Cámara Integrada</h3>
+            <p>Observa a tu mascota mientras come desde cualquier lugar</p>
+          </div>
+          <div class="caracteristica">
+            <div class="icono">🌟</div>
+            <h3>Fácil Limpieza</h3>
+            <p>Componentes desmontables y aptos para lavavajillas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="galeria">
+      <div class="content">
+        <h2>Conoce PetLink</h2>
+        <div class="grid-galeria">
+          <div class="imagen-galeria">
+            <img src="Recursos/Empaque.jpg" alt="Vista frontal del alimentador CuidaCan" />
+            <p>Vista frontal</p>
+          </div>
+          <div class="imagen-galeria">
+            <img src="Recursos/Empaque.jpg" alt="Vista lateral del alimentador CuidaCan" />
+            <p>Vista lateral</p>
+          </div>
+          <div class="imagen-galeria">
+            <img src="Recursos/Empaque.jpg" alt="Aplicación móvil de CuidaCan" />
+            <p>App móvil</p>
+          </div>
+          <div class="imagen-galeria">
+            <img src="Recursos/Empaque.jpg" alt="Mascota usando el alimentador CuidaCan" />
+            <p>En acción</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonios">
+      <div class="content">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="grid-testimonios">
+          <div class="testimonio">
+            <div class="estrellas">★★★★★</div>
+            <p>"CuidaCan cambió mi vida. Ahora puedo viajar tranquila sabiendo que Max come a sus horas."</p>
+            <strong>- María González, Quito</strong>
+          </div>
+          <div class="testimonio">
+            <div class="estrellas">★★★★★</div>
+            <p>"La cámara integrada me permite ver a Luna mientras estoy en el trabajo. ¡Es increíble!"</p>
+            <strong>- Carlos Rodríguez, Guayaquil</strong>
+          </div>
+          <div class="testimonio">
+            <div class="estrellas">★★★★★</div>
+            <p>"Fácil de usar y muy confiable. Mi veterinario lo recomendó y no me arrepiento."</p>
+            <strong>- Ana Pérez, Cuenca</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="content">
+        <h2>Preguntas Frecuentes</h2>
+        <div class="faq-container">
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(0)">
+              <span>¿Qué tamaños de mascotas puede alimentar?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>PetLink es ideal para perros y gatos de 2kg a 25kg. Las porciones son completamente personalizables.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(1)">
+              <span>¿Funciona sin internet?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Sí, una vez programado, funciona independientemente. El internet solo se necesita para control remoto.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(2)">
+              <span>¿Qué incluye la compra?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Incluye: alimentador, manual, cable de carga, acceso a la app y garantía de 2 años.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" onclick="toggleFAQ(3)">
+              <span>¿Tiene garantía?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Sí, ofrecemos 2 años de garantía y soporte técnico gratuito de por vida.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="content">
+        <h2>¿Listo para darle lo mejor a tu mascota?</h2>
+        <p>Únete a más de 1,000 familias ecuatorianas que ya confían en PetLink</p>
+        <button onclick="mostrarFormulario()" class="btn-principal">¡Quiero más información!</button>
+        
+        <div class="formulario" id="formularioContacto">
+          <h3>Contáctanos</h3>
+          <input type="text" placeholder="Tu nombre" id="nombre" required />
+          <input type="email" placeholder="Tu correo electrónico" id="correo" required />
+          <input type="tel" placeholder="Tu número de teléfono" id="telefono" />
+          <select id="interes">
+            <option value="">¿Qué te interesa más?</option>
+            <option value="compra">Quiero comprarlo</option>
+            <option value="info">Necesito más información</option>
+            <option value="precio">Consultar precio</option>
+            <option value="demo">Ver una demostración</option>
+          </select>
+          <textarea placeholder="Tu mensaje (opcional)" id="mensaje"></textarea>
+          <button onclick="enviarFormulario()">Enviar</button>
+        </div>
+        
+        <a href="https://wa.me/593996079652?text=Hola,%20estoy%20interesado%20en%20el%20alimentador%20automático%20CuidaCan" class="whatsapp" target="_blank">
+          📱 Escríbenos por WhatsApp
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Contáctenos</strong></p>
+    <p>099-607-9652 | Cuidacan@outlook.com | <a href="https://www.cuidacanecu.es" target="_blank">www.cuidacanecu.es</a></p>
+    <p>Edificio Tecnológico - Frente a la Unach, Riobamba</p>
+    <p>&copy; 2025 CuidaCan. Todos los derechos reservados.</p>
+  </footer>
+
+  
+  <div id="modalExito" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="cerrarModal()">&times;</span>
+      <h3>¡Mensaje enviado con éxito!</h3>
+      <p>Gracias por tu interés en CuidaCan. Nos pondremos en contacto contigo muy pronto.</p>
+      <button onclick="abrirWhatsApp()" class="btn-whatsapp">Continuar por WhatsApp</button>
+    </div>
+  </div>
+</body>
+</html>
